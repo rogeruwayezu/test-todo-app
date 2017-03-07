@@ -26,4 +26,5 @@ class Task < ApplicationRecord
   def snooze_hour!
     update(deadline: deadline + 1.hour)
   end
+  
 end
